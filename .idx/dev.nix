@@ -11,6 +11,9 @@
     # pkgs.python311Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
+    pkgs.php
+    pkgs.phpPackages.composer
+    pkgs.mysql
   ];
 
   # Sets environment variables in the workspace
@@ -19,22 +22,20 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
+      "phpserver.php-server"
     ];
 
     # Enable previews
     previews = {
       enable = true;
       previews = {
-        # web = {
-        #   # Example: run "npm run dev" with PORT set to IDX's defined port for previews,
-        #   # and show it in IDX's web preview panel
-        #   command = ["npm" "run" "dev"];
-        #   manager = "web";
-        #   env = {
-        #     # Environment variables to set for your server
-        #     PORT = "$PORT";
-        #   };
-        # };
+        web = {
+          command = ["php" "-S" "0.0.0.0:$PORT" "-t" "."]; # Cambia el directorio si es necesario
+          manager = "web";
+          env = {
+            PORT = "$PORT";
+          };
+        };
       };
     };
 
