@@ -81,6 +81,8 @@
   </form>
 </main>
 
+<a href="views/registarEncargador.php">ENCARGADO</a>
+
 <script src="back/conexion.php"></script>
     <script src="back/login.php"></script>
     <script src="script.js"></script>
