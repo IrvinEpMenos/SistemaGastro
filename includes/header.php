@@ -11,5 +11,6 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="../assets/js/color-modes.js"></script>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="/DataTables/datatables.css" />
 </head>
 <body>

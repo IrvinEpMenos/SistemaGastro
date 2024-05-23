@@ -6,5 +6,6 @@
     </div>
 </footer>
 <!-- Fin del pie de página -->
+<script src="/DataTables/datatables.js"></script>
 </body>
 </html>
