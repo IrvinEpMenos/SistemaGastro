@@ -1,9 +1,6 @@
 
 <?php include '../includes/header.php'; ?>
 <?php include '../includes/navbarEncargado.php'; ?>
-<div class="d-flex" style="height: 20px;">
-  <div class="vr"></div>
-</div>
 <div class="mx-auto pt-5" style="width: 65%"  >
 <h1>Registro de encargados</h1>
 <form class="row g-3 pt-5">
