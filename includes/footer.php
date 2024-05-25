@@ -1,11 +1,7 @@
-<!-- Pie de página -->
-<footer>
-    <div class="container">
-        <hr>
-        <p>&copy; <?php echo date("Y"); ?> Tu Sitio Web. Todos los derechos reservados.</p>
-    </div>
-</footer>
-<!-- Fin del pie de página -->
-<script src="/DataTables/datatables.js"></script>
-</body>
-</html>
+<?php include 'header.php'; ?>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">&copy; © Servicios de Tecnologías de Información - 2024</p>
+  </footer>
+</div>
