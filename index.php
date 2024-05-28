@@ -36,6 +36,7 @@
 </main>
 
 <a href="views/registrarEncargado.php">ENCARGADO</a>
+<a href="views/registrarAlumno.php">ALUMNO</a>
 
 <script src="back/conexion.php"></script>
     <script src="back/login.php"></script>
