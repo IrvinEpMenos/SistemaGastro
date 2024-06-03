@@ -14,6 +14,7 @@
     pkgs.php
     pkgs.phpPackages.composer
     pkgs.mysql
+    pkgs.mysql80
   ];
 
   # Sets environment variables in the workspace
