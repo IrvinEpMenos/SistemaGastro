@@ -2,8 +2,8 @@
 // Datos de la conexión
 $servername = "127.0.0.1";
 $username = "root";
-$password = "";
-$dbname = "sisgastro";
+$password = "123456";
+$dbname = "sysgastro";
 
 // Crear la conexión
 $conn = new mysqli($servername, $username, $password, $dbname);

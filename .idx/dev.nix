@@ -24,6 +24,7 @@
     extensions = [
       # "vscodevim.vim"
       "phpserver.php-server"
+      "mysqli"
     ];
 
     # Enable previews
