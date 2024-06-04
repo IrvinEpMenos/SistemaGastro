@@ -37,7 +37,7 @@
 
 <a href="views/registrarEncargado.php">ENCARGADO</a>
 <a href="views/registrarAlumno.php">ALUMNO</a>
-<a href="views/qr.php">QR</a>
+<a href="views/qr.php">QrR</a>
 
 <script src="back/conexion.php"></script>
     <script src="back/login.php"></script>
