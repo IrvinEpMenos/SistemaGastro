@@ -13,7 +13,7 @@
     # pkgs.nodePackages.nodemon
     pkgs.php
     pkgs.phpPackages.composer
-    pkgs.mysql
+    #pkgs.mysql
     pkgs.mysql80
   ];
 
