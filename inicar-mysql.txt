@@ -1,0 +1,7 @@
+para que haya conexion a la bd primero 
+se tiene que iniciar mysql
+./mysql-start.sh 
+es para iniciar mysql
+despues abres otra terminal y pones esto
+mysql -S ./mysql_data/mysql.sock -u root -p
+contraseña = 123456

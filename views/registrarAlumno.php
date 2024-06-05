@@ -1,6 +1,7 @@
 
 <?php include '../includes/header.php';?>
 <?php include '../includes/navbarEncargado.php';?>
+<?php include '../controllers/config.php';?>
 
 <?php
 /*session_start();
@@ -20,54 +21,72 @@ if(isset($_SESSION['role'])) {
 }*/
 ?>
 <div class="mx-auto pt-5" style="width: 65%"  >
-<h1>Registro de encargados</h1>
-<form class="row g-3">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
-  </div>
-  <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Password</label>
-    <input type="password" class="form-control" id="inputPassword4">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress" class="form-label">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress2" class="form-label">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="col-md-6">
-    <label for="inputCity" class="form-label">City</label>
-    <input type="text" class="form-control" id="inputCity">
-  </div>
-  <div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
-    </select>
-  </div>
-  <div class="col-md-2">
-    <label for="inputZip" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="inputZip">
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
+<h1>Registro de Alumnos</h1>
+<div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe el nombre completo" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="matricula">Matrícula:</label>
+                <input type="number" class="form-control" name="matricula" maxlength="8" id="matricula"  placeholder="Escribe la matrícula" required>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email">Correo:</label>
+                <input type="email" class="form-control font-weight-bold" name="email" id="email" placeholder="Correo" readonly>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="password">Contraseña(Predeterminada por sistema):</label>
+                <input type="password" id="password" name="password" class="form-control font-weight-bold" placeholder="12345678" readonly >
+            </div>
+        </div>
+    </div>
+
+    <?php if(isset($_GET['role']) && $_GET['role'] == 'admin') : ?>
+        <input type="hidden" name="rol" value="admin">
+    <?php else: ?>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="grupo">Grupo:</label>
+                    <input type="text" class="form-control" id="grupo" name="grupo" placeholder="Escribe el grupo" required>
+                </div>
+            </div>
+            <div class="col-sm">
+                <label>Cautrimestre</label>
+                <div class="form-group">
+                    <select class="custom-select" name="cuatrimestre" required>
+                        <option selected disabled value="">Seleccionar cuatrimestre...</option>
+                        <option>1</option>                            
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>                            
+                    </select>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
+
+    <button type="submit" class="bg-white text-red-500 px-4 py-2 rounded-md">Registrar</button>
 </form>
-</div>
-<div class="d-flex" style="height: 0px;">
-  <div class="vr"></div>
-</div>
+
+  </div>
 
 <?php include '../includes/footer.php';?>

@@ -1,42 +1,68 @@
 
 <?php include '../includes/header.php'; ?>
 <?php include '../includes/navbarDirector.php'; ?>
-<div class="mx-auto pt-5" style="width: 65%"  >
-<h1>Registro de encargados</h1>
-<form class="row g-3 pt-5">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Nombre(s)</label>
-    <input type="email" class="form-control" id="inputEmail4">
-  </div>
-  <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Apellidos</label>
-    <input type="password" class="form-control" id="inputPassword4">
-  </div>
-  <div class="col-md-6">
-    <label for="inputCity" class="form-label">Correo</label>
-    <input type="text" class="form-control" id="inputCity">
-  </div>
-  <div class="col-md-4">
-    <label for="inputState" class="form-label">Genero</label>
-    <select id="inputState" class="form-select">
-      <option selected>Seleccionar</option>
-      <option>Hombre</option>
-      <option>Mujer</option>
-      <option>Otro</option>
-    </select>
-  </div>
-  <div class="col-md-2">
-    <label for="inputZip" class="form-label">Contraseña</label>
-    <input class="form-control" type="text" value="12345678" aria-label="Disabled input example" disabled readonly>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Registrar</button>
-  </div>
-</form>
+
+<div class="container pt-5">
+        <h1>LISTA DE ENCARGADOS</h1>
+        <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#registroModal">Registrar Nuevo Encargado</button>
+        <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+        <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Matrícula</th>
+                <th>Correo Electrónico</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php include '../controllers/registrarEncargado.php'; ?>
+        </tbody>
+    </table>
+        </div>
+    </div>
 </div>
-<div class="d-flex" style="height: 200px;">
-  <div class="vr"></div>
-</div>
+    </div>
+    <div class="modal fade" id="registroModal" tabindex="-1" aria-labelledby="registroModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registroModalLabel">Registrar Encargado</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="registroForm" action="../controllers/registrarEncargado.php" method="post" class="row g-3">
+                        <div class="col-md-6">
+                            <label for="nombre_encargado" class="form-label">Nombre(s)</label>
+                            <input type="name" class="form-control" id="nombre_encargado" name="nombre_encargado" required onkeyup="validarLetras(this)">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="matricula_encargado" class="form-label">Matricula</label>
+                            <input type="number" class="form-control" id="matricula_encargado" name="matricula_encargado" required maxlength="8" oninput="validarMatricula(this)">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="correo_encargado" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="correo_encargado" name="correo_encargado" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="contrasena_encargado" class="form-label">Contraseña</label>
+                            <input type="text" class="form-control" id="contrasena_encargado" name="contrasena_encargado" required value="12345678" readonly>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Registrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    const campoNombre = document.getElementById('nombre');
+    validarLetras(campoNombre);
+    </script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src= "../assets/js/validaciones.js"></script>
 
 <?php include '../includes/footer.php'; ?>

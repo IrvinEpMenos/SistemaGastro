@@ -1,17 +1,19 @@
-
-
 <?php include 'includes/header.php'; ?>
-
     
 <main class="form-signin w-100 m-auto">
 <form id="registration" action="controllers/login.php" method="post">
             <h6><?php 
             if (isset($_GET['error'])) {
-                    if ($_GET['error'] === 'notfound') {
-                        echo "<p>No se encontró el usuario.</p>";
-                    } elseif ($_GET['error'] === 'incorrect') {
-                        echo "<p>Contraseña incorrecta.</p>"; 
-                    }}?>
+              if ($_GET['error'] == 'incorrect') {
+                  echo '<p style="color:red;">Contraseña incorrecta. Inténtalo de nuevo.</p>';
+              } elseif ($_GET['error'] == 'notfound') {
+                  echo '<p style="color:red;">Matrícula no encontrada. Inténtalo de nuevo.</p>';
+              } elseif ($_GET['error'] == 'missing') {
+                  echo '<p style="color:red;">Por favor, ingresa tu matrícula y contraseña.</p>';
+              } elseif ($_GET['error'] == 'invalid') {
+                  echo '<p style="color:red;">Solicitud inválida.</p>';
+              }
+          }?>
             </h6>
     <img src="assets/img/chef-8.png" alt="" width="300" height="250">
     <figure class="text-center">
@@ -34,10 +36,6 @@
     <button class="btn btn-primary w-100 py-2" type="submit">Iniciar Sesión</button>
   </form>
 </main>
-
-<a href="views/registrarEncargado.php">ENCARGADO</a>
-<a href="views/registrarAlumno.php">ALUMNO</a>
-<a href="views/qr.php">QrR</a>
 
 <script src="back/conexion.php"></script>
     <script src="back/login.php"></script>

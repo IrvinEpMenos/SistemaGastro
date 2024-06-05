@@ -13,7 +13,7 @@
     # pkgs.nodePackages.nodemon
     pkgs.php
     pkgs.phpPackages.composer
-    #pkgs.mysql
+    #pkgs.mysqli
     pkgs.mysql80
   ];
 
@@ -25,6 +25,8 @@
       # "vscodevim.vim"
       "phpserver.php-server"
       "mysqli"
+      "cweijan.dbclient-jdbc"
+      "cweijan.vscode-mysql-client2"
     ];
 
     # Enable previews
