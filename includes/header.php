@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/DataTables/datatables.css" />
     <link href="../assets/css/inicio_sesion.css" rel="stylesheet">
 <script src="../assets/js/color-modes.js"></script>
+
 </head>
 <body>
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
