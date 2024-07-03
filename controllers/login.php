@@ -4,7 +4,7 @@ session_set_cookie_params(1800);
 session_start();
 
 if (isset($_SESSION['matricula'])) {
-    header("location: ../views/indexEncargado.php");
+    header("location: ../views/.php");
     exit();
 }
 

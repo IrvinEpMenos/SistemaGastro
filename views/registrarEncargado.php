@@ -1,5 +1,5 @@
 <?php include '../includes/header.php'; ?>
-<?php include '../includes/navbarDirector.php'; ?>
+<?php include '../includes/navbar.php'; ?>
 
 <div class="container pt-5">
         <h1>LISTA DE ENCARGADOS</h1>

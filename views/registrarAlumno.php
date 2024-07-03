@@ -1,5 +1,5 @@
 <?php include '../includes/header.php'; ?>
-<?php include '../includes/navbarEncargado.php'; ?>
+<?php include '../includes/navbar.php'; ?>
 
 <div class="container pt-5">
         <h1>LISTA DE ALUMNOS</h1>
@@ -17,7 +17,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php include '../controllers/verEncargado.php';?>
+            <?php include '../controllers/verAlumno.php';?>
         </tbody>
     </table>
         </div>
