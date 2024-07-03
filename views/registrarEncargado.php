@@ -1,4 +1,3 @@
-
 <?php include '../includes/header.php'; ?>
 <?php include '../includes/navbarDirector.php'; ?>
 
@@ -18,7 +17,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php include '../controllers/registrarEncargado.php'; ?>
+            <?php include '../controllers/verEncargado.php';?>
         </tbody>
     </table>
         </div>
@@ -44,7 +43,7 @@
                         </div>
                         <div class="col-md-6">
                             <label for="correo_encargado" class="form-label">Correo</label>
-                            <input type="email" class="form-control" id="correo_encargado" name="correo_encargado" required>
+                            <input type="email" class="form-control" id="correo_encargado" name="correo_encargado" required readonly>
                         </div>
                         <div class="col-md-6">
                             <label for="contrasena_encargado" class="form-label">Contraseña</label>
@@ -64,5 +63,4 @@
     </script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src= "../assets/js/validaciones.js"></script>
-
-<?php include '../includes/footer.php'; ?>
+<?php include '../includes/footer.php';?>
