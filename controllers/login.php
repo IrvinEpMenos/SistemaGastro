@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $_SESSION['user_type'] = $tabla['nombre'];
                     
                     // Redirigir a la página correspondiente
-                    header("Location: " . $tabla["redirect"]);
+                    header("Location: dashboard.php");
                     exit;
                 } else {
                     // Contraseña incorrecta, redirigir con mensaje de error
