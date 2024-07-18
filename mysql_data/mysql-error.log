@@ -356,3 +356,13 @@
 2024-07-16T14:25:45.337139Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
 2024-07-16T14:25:45.394665Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
 2024-07-16T14:25:45.394906Z 0 [System] [MY-010931] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: ready for connections. Version: '8.0.37'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+2024-07-17T17:20:54.973916Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 1668
+2024-07-17T17:20:55.008939Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-17T17:20:55.684503Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-17T17:20:55.920086Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-17T17:20:55.967202Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-17T17:20:56.005212Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-17T17:20:56.135139Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-17T17:20:56.135537Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-17T17:20:56.220954Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-17T17:20:56.221327Z 0 [System] [MY-010931] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: ready for connections. Version: '8.0.37'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
