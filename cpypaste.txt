@@ -1,0 +1,5 @@
+includes
+include'../../includes/header.php'; 
+include'../../includes/navbar.php';
+include'../../controllers/carrito.php';
+include'../../controllers/carrito.php';

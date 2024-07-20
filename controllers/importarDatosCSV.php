@@ -1,10 +1,8 @@
 <?php
-// Verificar si se ha enviado un archivo
 if (isset($_FILES['datosCSV']) && $_FILES['datosCSV']['error'] === UPLOAD_ERR_OK) {
     // Ruta donde se almacenará temporalmente el archivo CSV subido
     $archivo_temporal = $_FILES['datosCSV']['tmp_name'];
     
-    // Verificar si el archivo subido es realmente un archivo CSV
     $file_extension = pathinfo($_FILES['datosCSV']['name'], PATHINFO_EXTENSION);
     if (strtolower($file_extension) !== 'csv') {
         die('Error: El archivo debe ser un archivo CSV.');
@@ -27,7 +25,7 @@ if (isset($_FILES['datosCSV']) && $_FILES['datosCSV']['error'] === UPLOAD_ERR_OK
                 // Asignar cada columna a variables (ajustar según la estructura del CSV)
                 $nombre = $data[0];
                 $matricula = intval($data[1]);
-                $correo = '21307011@gmail.com';
+                $correo = $matricula . '@gmail.com';
                 $contrasena = '12345678';
                 $cuatrimestre = $data[2];
                 $grupo = $data[3];

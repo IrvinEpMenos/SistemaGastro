@@ -720,3 +720,167 @@
 2024-07-03T15:06:08.131273Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
 2024-07-03T15:06:08.131342Z 0 [ERROR] [MY-010119] [Server] Aborting
 2024-07-03T15:06:08.142563Z 0 [System] [MY-010910] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld: Shutdown complete (mysqld 8.0.36)  Source distribution.
+2024-07-03T17:50:18.358516Z 0 [System] [MY-010116] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld (mysqld 8.0.36) starting as process 83380
+2024-07-03T17:50:18.415795Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-03T17:50:18.485260Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:19.485880Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:20.486163Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:21.486423Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:22.486674Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:23.486978Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:24.487218Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:25.487473Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:26.487758Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:27.488050Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:28.488311Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:29.488588Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:30.488830Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:31.489113Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:32.489382Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:33.489672Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:34.489976Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:35.490233Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:36.490502Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:37.490738Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:38.491149Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:39.491396Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:40.491639Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:41.491878Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:42.492192Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:43.492435Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:44.492732Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:45.493041Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:46.494440Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:47.494724Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:48.495048Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:49.495299Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:50.495528Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:51.495820Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:52.496094Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:53.496441Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:54.496658Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:55.496969Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:56.497264Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:57.497566Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:58.497857Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:50:59.498089Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:00.498423Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:01.498681Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:02.498988Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:03.499372Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:04.499654Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:05.499925Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:06.500160Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:07.500410Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:08.500654Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:09.500858Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:10.502844Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:11.503094Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:12.503333Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:13.503585Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:14.503949Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:15.504221Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:16.504450Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:17.504697Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:18.504956Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:19.505209Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:20.505429Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:21.505651Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:22.506099Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:23.506331Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:24.506566Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:25.506814Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:26.507064Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:27.507330Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:28.507586Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:29.507842Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:30.508086Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:31.508335Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:32.508577Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:33.508830Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:34.509058Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:35.509318Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:36.509564Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:37.509832Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:38.510125Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:39.510415Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:40.511874Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:41.512114Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:42.512371Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:43.512635Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:44.512865Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:45.515343Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:46.515607Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:47.515878Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:48.516118Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:49.516374Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:50.516666Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:51.516961Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:52.517252Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:53.517536Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:54.517792Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:55.518090Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:56.518337Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:57.518562Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:58.518846Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-03T17:51:58.519056Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 11 in a file operation.
+2024-07-03T17:51:58.519092Z 1 [ERROR] [MY-012596] [InnoDB] Error number 11 means 'Resource temporarily unavailable'
+2024-07-03T17:51:58.521569Z 1 [ERROR] [MY-012215] [InnoDB] Cannot open datafile './ibdata1'
+2024-07-03T17:51:58.521631Z 1 [ERROR] [MY-012959] [InnoDB] Could not open or create the system tablespace. If you tried to add new data files to the system tablespace, and it failed here, you should now edit innodb_data_file_path in my.cnf back to what it was, and remove the new ibdata files InnoDB created in this failed attempt. InnoDB only wrote those files full of zeros, but did not yet use them in any way. But be careful: do not remove old data files which contain your precious data!
+2024-07-03T17:51:58.522379Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Cannot open a file.
+2024-07-03T17:51:58.524039Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2024-07-03T17:51:58.524317Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2024-07-03T17:51:58.524365Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-03T17:51:58.534511Z 0 [System] [MY-010910] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld: Shutdown complete (mysqld 8.0.36)  Source distribution.
+2024-07-04T14:04:10.936613Z 0 [System] [MY-010116] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld (mysqld 8.0.36) starting as process 491
+2024-07-04T14:04:10.959414Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-04T14:04:11.473603Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-04T14:04:11.706463Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-04T14:04:11.738227Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-04T14:04:11.757997Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-04T14:04:11.852612Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-04T14:04:11.852760Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-04T14:04:12.001527Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-04T14:04:12.008236Z 0 [System] [MY-010931] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld: ready for connections. Version: '8.0.36'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+2024-07-16T14:21:57.902256Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 1600
+2024-07-16T14:21:57.925680Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-16T14:21:58.549175Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-16T14:21:59.024914Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-16T14:21:59.063101Z 4 [System] [MY-013381] [Server] Server upgrade from '80036' to '80037' started.
+2024-07-16T14:22:16.033049Z 4 [System] [MY-013381] [Server] Server upgrade from '80036' to '80037' completed.
+2024-07-16T14:22:16.230176Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-16T14:22:16.278772Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-16T14:22:16.400556Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-16T14:22:16.400663Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-16T14:22:16.463829Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-16T14:22:16.467931Z 0 [System] [MY-010931] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: ready for connections. Version: '8.0.37'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+2024-07-17T18:10:32.804861Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 3033
+2024-07-17T18:10:32.883283Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-17T18:10:33.489324Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-17T18:10:33.800012Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-17T18:10:33.877321Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-17T18:10:33.909064Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-17T18:10:34.019686Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-17T18:10:34.020921Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-17T18:10:34.127093Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-17T18:10:34.133559Z 0 [System] [MY-010931] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: ready for connections. Version: '8.0.37'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+2024-07-18T02:45:36.335898Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 4539
+2024-07-18T02:45:36.386508Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-18T02:45:37.016947Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-18T02:45:37.238396Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-18T02:45:37.285057Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-18T02:45:37.329771Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-18T02:45:37.410766Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-18T02:45:37.413700Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-18T02:45:37.481540Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-18T02:45:37.482027Z 0 [System] [MY-010931] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: ready for connections. Version: '8.0.37'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+2024-07-20T16:14:02.735989Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 12837
+2024-07-20T16:14:02.788170Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-20T16:14:03.504000Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-20T16:14:03.750730Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-20T16:14:03.799309Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-20T16:14:03.842512Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-20T16:14:03.949244Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-20T16:14:03.951134Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-20T16:14:04.080178Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-20T16:14:04.080593Z 0 [System] [MY-010931] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: ready for connections. Version: '8.0.37'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.

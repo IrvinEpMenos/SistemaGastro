@@ -1,4 +1,3 @@
-<?php include 'header.php'; ?>
 
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -7,3 +6,6 @@
     <p class="col-md-4 mb-0 text-body-secondary">&copy; Servicios de Tecnologías de Información - 2024</p>
   </footer>
 </div>
+
+</body>
+</html>

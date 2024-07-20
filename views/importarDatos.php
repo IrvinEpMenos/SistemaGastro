@@ -12,6 +12,7 @@
     <input type="file" name="datosCSV" id="datosCSV">
     <button type="submit">Importar</button>
 </form>
+<a href="../controllers/exportarCSV.php"><button>Descargar CSV</button></a>
     </div>
 </body>
 </html>

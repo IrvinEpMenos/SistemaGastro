@@ -1,6 +1,7 @@
 <?php 
 include '../includes/header.php'; 
 include '../includes/navbar.php';
+include '../controllers/config.php';
 ?>
 <link href="../assets/css/dash.css" rel="stylesheet">
 
@@ -36,31 +37,10 @@ include '../includes/navbar.php';
         <div class="recent-orders">
             <h2>Pedidos Recientes</h2>
             <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>ID Pedido</th>
-                            <th>Cliente</th>
-                            <th>Total</th>
-                            <th>Fecha</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>001</td>
-                            <td>Cliente A</td>
-                            <td>$100.00</td>
-                            <td>01/07/2024</td>
-                        </tr>
-                        <tr>
-                            <td>002</td>
-                            <td>Cliente B</td>
-                            <td>$150.00</td>
-                            <td>02/07/2024</td>
-                        </tr>
-                        <!-- Aquí irían más filas de pedidos recientes -->
-                    </tbody>
-                </table>
+                <?php 
+                include'../controllers/tablita.php';
+                echo tablaArticulo($conn);
+                ?>
             </div>
         </div>
     </div>
