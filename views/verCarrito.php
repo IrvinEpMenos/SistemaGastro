@@ -5,6 +5,7 @@ include '../controllers/config.php';
 $products = getProducts();
 $total = 0;
 
+
 if (isset($_POST['action'])) {
     $action = $_POST['action'];
 
@@ -19,11 +20,12 @@ if (isset($_POST['action'])) {
     elseif ($action == 'order') {
         $_SESSION['matricula_alumno'] = '21307006';
         $_SESSION['nombre_alumno'] = 'Jonathan Narvaez Moralez';
+        $descripcion = $_POST['descripcion'];
 
         if (isset($_SESSION['cart']) && !empty($_SESSION['cart'])) {
             $matricula_alumno = $_SESSION['matricula_alumno'];
             $nombre_alumno = $_SESSION['nombre_alumno'];
-            $descripcion_pedido = json_encode($_SESSION['cart']); // Convertir el carrito a JSON
+            $descripcion_pedido = $descripcion; // Convertir el carrito a JSON 
             $estatus_pedido = 'pendiente'; // Estatus inicial del pedido
             $fecha = date('Y-m-d H:i:s');
             $observacion = ''; // Puedes ajustar esto según tus necesidades
@@ -81,6 +83,17 @@ include '../includes/navbar.php';
         </form>
         <form action="#" method="POST">
             <input type="hidden" name="action" value="order">
+
+        <?php   
+        $desc = array();
+        if (isset($_SESSION['cart'])) {
+            foreach ($_SESSION['cart'] as $id => $quantity) {
+                $desc[] = "$id (cantidad: $quantity)";
+            }
+        }
+        $descripcion = implode(", ", $desc);
+        ?>
+        <input type="hidden" name="descripcion" value="<?php echo htmlspecialchars($descripcion); ?>">
             <input type="submit" value="Generar Pedido">
         </form>
     </div>

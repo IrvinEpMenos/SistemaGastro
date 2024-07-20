@@ -9,21 +9,13 @@ include '../includes/navbar.php';
         <input type="submit" value="carrito">
     </form>
 
-    <form action="/views/pedido.php" method="get">
-        <input type="submit" value="pedidos">
-    </form>
+    <a href="/views/verTabla.php?table=pedido">pedidos</a>
 
-    <form action="/views/home.php" method="get">
-        <input type="submit" value="">
-    </form>
+    <a href="/views/verTabla.php?table=articulo">articulo</a>
 
-    <form action="/views/home.php" method="get">
-        <input type="submit" value="">
-    </form>
+    <a href="/views/verTabla.php?table=alumno">alumno</a>
 
-    <form action="/views/home.php" method="get">
-        <input type="submit" value="">
-    </form>
+    <a href="/views/verTabla.php?table=detalle_pedido"></a>
 
 <?php
 include '../includes/footer.php';
