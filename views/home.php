@@ -1,10 +1,7 @@
 <?php 
 include '../includes/header.php';
 include '../includes/navbar.php';
-
-
 ?>
-
     <form action="/views/carrito.php" method="get">
         <input type="submit" value="carrito">
     </form>
