@@ -1,6 +1,7 @@
-<?php include '../includes/header.php'; ?>
-<?php include '../includes/navbar.php'; ?>
-
+<?php 
+include '../includes/navbar.php';
+include '../includes/header.php'; 
+?>
 <div class="container pt-5">
         <h1>LISTA DE ENCARGADOS</h1>
         <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#registroModal">Registrar Nuevo Encargado</button>
@@ -63,4 +64,5 @@
     </script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src= "../assets/js/validaciones.js"></script>
+
 <?php include '../includes/footer.php';?>

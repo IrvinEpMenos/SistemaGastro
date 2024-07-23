@@ -1,9 +1,10 @@
-<?php include '../includes/header.php'; ?>
-<?php include '../includes/navbar.php'; ?>
-
+<?php 
+include '../includes/navbar.php';
+include '../includes/header.php'; 
+?>
 <div class="container pt-5">
-        <h1>LISTA DE ALUMNOS</h1>
-        <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#registroModal">Registrar Nuevo Alumno</button>
+        <h1>LISTA DE ENCARGADOS</h1>
+        <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#registroModal">Registrar Nuevo Encargado</button>
         <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -17,7 +18,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php include '../controllers/verAlumno.php';?>
+            <?php include '../controllers/verEncargado.php';?>
         </tbody>
     </table>
         </div>
@@ -63,4 +64,4 @@
     </script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src= "../assets/js/validaciones.js"></script>
-<?php include '../includes/footer.php';?>
+<?php include '../includes/footer.php'; ?>

@@ -314,6 +314,7 @@
 2024-06-05T03:13:13.968371Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
 2024-06-05T03:13:14.021364Z 0 [System] [MY-010931] [Server] /nix/store/g0xcbslwayv7cpa8k75m5zqmq8jf7xis-mysql-8.0.36/bin/mysqld: ready for connections. Version: '8.0.36'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
 2024-06-05T03:13:14.021885Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+<<<<<<< HEAD
 2024-06-05T14:34:22.054971Z 0 [System] [MY-010116] [Server] /nix/store/g0xcbslwayv7cpa8k75m5zqmq8jf7xis-mysql-8.0.36/bin/mysqld (mysqld 8.0.36) starting as process 4404
 2024-06-05T14:34:22.095407Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
 2024-06-05T14:34:22.638582Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
@@ -884,3 +885,228 @@
 2024-07-20T16:14:03.951134Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
 2024-07-20T16:14:04.080178Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
 2024-07-20T16:14:04.080593Z 0 [System] [MY-010931] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: ready for connections. Version: '8.0.37'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+=======
+2024-07-01T14:25:07.191428Z 0 [System] [MY-010116] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld (mysqld 8.0.36) starting as process 2176
+2024-07-01T14:25:07.203880Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-01T14:25:07.640069Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-01T14:25:07.818687Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-01T14:25:07.867368Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-01T14:25:07.888159Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-01T14:25:07.954495Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-01T14:25:07.954588Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-01T14:25:07.998181Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-01T14:25:07.998278Z 0 [System] [MY-010931] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld: ready for connections. Version: '8.0.36'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+2024-07-02T14:32:45.911680Z 0 [System] [MY-010116] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld (mysqld 8.0.36) starting as process 2619
+2024-07-02T14:32:45.949099Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-02T14:32:46.473252Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-02T14:32:46.699662Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-02T14:32:46.743056Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-02T14:32:46.791306Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-02T14:32:46.877153Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-02T14:32:46.877535Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-02T14:32:46.940387Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-02T14:32:46.940997Z 0 [System] [MY-010931] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld: ready for connections. Version: '8.0.36'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+2024-07-03T14:43:41.176445Z 0 [System] [MY-010116] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld (mysqld 8.0.36) starting as process 3816
+2024-07-03T14:43:41.205064Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-03T14:43:41.708461Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-03T14:43:41.911477Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-03T14:43:41.941324Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-03T14:43:41.963054Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-03T14:43:42.038135Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-03T14:43:42.038407Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-03T14:43:42.096981Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-03T14:43:42.097462Z 0 [System] [MY-010931] [Server] /nix/store/442x7g4w1k6891c0warnjhgq9l7j9p82-mysql-8.0.36/bin/mysqld: ready for connections. Version: '8.0.36'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+2024-07-16T14:25:27.786473Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 2337
+2024-07-16T14:25:27.805041Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-16T14:25:28.371556Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-16T14:25:28.830069Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-16T14:25:28.856706Z 4 [System] [MY-013381] [Server] Server upgrade from '80036' to '80037' started.
+2024-07-16T14:25:44.993859Z 4 [System] [MY-013381] [Server] Server upgrade from '80036' to '80037' completed.
+2024-07-16T14:25:45.172691Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-16T14:25:45.230341Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-16T14:25:45.333381Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-16T14:25:45.337139Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-16T14:25:45.394665Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-16T14:25:45.394906Z 0 [System] [MY-010931] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: ready for connections. Version: '8.0.37'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+2024-07-17T17:20:54.973916Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 1668
+2024-07-17T17:20:55.008939Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-17T17:20:55.684503Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-17T17:20:55.920086Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+2024-07-17T17:20:55.967202Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-07-17T17:20:56.005212Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-07-17T17:20:56.135139Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-17T17:20:56.135537Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-17T17:20:56.220954Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-07-17T17:20:56.221327Z 0 [System] [MY-010931] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: ready for connections. Version: '8.0.37'  socket: '/home/user/SistemaGastro/mysql_data/mysql.sock'  port: 3306  Source distribution.
+>>>>>>> origin/main
+2024-07-23T00:24:05.360602Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 5209
+2024-07-23T00:24:05.421045Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:24:06.404668Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:24:06.728755Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:24:06.883227Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:24:06.883265Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:24:06.883284Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:24:07.854417Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:25:31.296560Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 7318
+2024-07-23T00:25:31.407437Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:25:31.695437Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 7327
+2024-07-23T00:25:31.785117Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:25:32.084524Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./#ib_16384_0.dblwr error: 11
+2024-07-23T00:25:32.138094Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-23T00:25:32.152939Z 1 [ERROR] [MY-013183] [InnoDB] Assertion failure: fil0fil.cc:7776 thread 138768374441664
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/8.0/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+2024-07-23T00:25:32Z UTC - mysqld got signal 6 ;
+Most likely, you have hit a bug, but this error can also be caused by malfunctioning hardware.
+BuildID[sha1]=acde0740dd9d21377a52fd672a5e7d97bcf22d03
+Thread pointer: 0x7ee0820
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 7e3587aa1bc0 thread_stack 0x100000
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(my_print_stacktrace(unsigned char const*, unsigned long)+0x3d) [0x23a388d]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(print_fatal_signal(int)+0x2a2) [0x1038df2]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(my_server_abort()+0x6d) [0x103901d]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(my_abort()+0xa) [0x239d5aa]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(ut_dbg_assertion_failed(char const*, char const*, unsigned long)+0x305) [0x265b2c5]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(Fil_shard::do_io(IORequest const&, bool, page_id_t const&, page_size_t const&, unsigned long, unsigned long, void*, void*)+0x410) [0x2813e40]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(fil_io(IORequest const&, bool, page_id_t const&, page_size_t const&, unsigned long, unsigned long, void*, void*)+0x6e) [0x281464e]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(buf_read_page_low(dberr_t*, bool, unsigned long, unsigned long, page_id_t const&, page_size_t const&, bool)+0x15c) [0x2715e1c]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(buf_read_page(page_id_t const&, page_size_t const&)+0x46) [0x2716216]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(Buf_fetch<Buf_fetch_normal>::read_page()+0x2e) [0x26cb19e]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(Buf_fetch_normal::get(buf_block_t*&)+0x158) [0x26d2a78]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(Buf_fetch<Buf_fetch_normal>::single_page()+0x51) [0x26d2b61]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(buf_page_get_gen(page_id_t const&, page_size_t const&, unsigned long, buf_block_t*, Page_fetch, ut::Location, mtr_t*, bool)+0x1f2) [0x26d3dc2]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(Double_write::get(mtr_t*)+0x4f) [0x26dbb9f]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(Double_write::init_v1(unsigned int&, unsigned int&)+0xf0) [0x26de010]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(dblwr::v1::init()+0x17) [0x26de297]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(srv_start(bool)+0x11c7) [0x25f6677]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld() [0x23eefa5]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(dd::bootstrap::DDSE_dict_init(THD*, dict_init_mode_t, unsigned int)+0xc6) [0x20c7296]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld(dd::upgrade_57::do_pre_checks_and_initialize_dd(THD*)+0x21a) [0x23711da]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld() [0x11055e6]
+/nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld() [0x2bcc7f0]
+/nix/store/qdcbgcj27x2kpxj2sf9yfvva7qsgg64g-glibc-2.38-77/lib/libc.so.6(+0x8b0e4) [0x7e35944ae0e4]
+/nix/store/qdcbgcj27x2kpxj2sf9yfvva7qsgg64g-glibc-2.38-77/lib/libc.so.6(+0x10d77c) [0x7e359453077c]
+
+Trying to get some variables.
+Some pointers may be invalid and cause the dump to abort.
+Query (0): Connection ID (thread ID): 1
+Status: NOT_KILLED
+
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+2024-07-23T00:25:33.549176Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:25:34.002272Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:25:34.097942Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:25:34.097974Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:25:34.097992Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:25:35.128904Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:25:42.095963Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 7596
+2024-07-23T00:25:42.147051Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:25:42.674402Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 7608
+2024-07-23T00:25:42.737786Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:25:43.113048Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-23T00:25:43.131311Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:25:43.563221Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:25:43.674736Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:25:43.674772Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:25:43.674792Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:25:44.113629Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 11
+2024-07-23T00:25:44.691966Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:25:45.692804Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:25:46.099728Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:25:46.163280Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:25:46.163315Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:25:46.163342Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:25:47.219418Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:25:51.742430Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 7882
+2024-07-23T00:25:51.810043Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:25:52.900321Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:25:53.843520Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:25:53.998221Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:25:53.998253Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:25:53.998271Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:25:54.938556Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:26:10.387059Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 8254
+2024-07-23T00:26:10.416615Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:26:11.116211Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:26:11.578295Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:26:11.668271Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:26:11.668308Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:26:11.668326Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:26:12.607957Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:26:42.320638Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 8693
+2024-07-23T00:26:42.397070Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:26:43.209107Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:26:43.587025Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:26:43.630234Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:26:43.630268Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:26:43.630285Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:26:44.633315Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:26:47.500116Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 8825
+2024-07-23T00:26:47.559013Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:26:48.710393Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:26:49.525238Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:26:49.635487Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:26:49.635520Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:26:49.635537Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:26:50.630886Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:27:13.774723Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 9250
+2024-07-23T00:27:13.836214Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:27:14.577614Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:27:14.932880Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:27:14.994262Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:27:14.994296Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:27:14.994314Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:27:15.946695Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:28:49.578735Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 11208
+2024-07-23T00:28:49.659193Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:28:50.724799Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:28:51.443273Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:28:51.579589Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:28:51.579621Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:28:51.579639Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:28:52.621393Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:29:03.829762Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 11896
+2024-07-23T00:29:04.009263Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:29:05.838377Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:29:07.563434Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:29:07.959221Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:29:07.959257Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:29:07.959275Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:29:08.521528Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:29:41.905653Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 13082
+2024-07-23T00:29:41.958684Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:29:42.651985Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:29:43.216146Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:29:43.465793Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:29:43.465830Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:29:43.465872Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:29:44.210783Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
+2024-07-23T00:32:11.654702Z 0 [System] [MY-010116] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld (mysqld 8.0.37) starting as process 16037
+2024-07-23T00:32:11.705098Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-23T00:32:12.377023Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-23T00:32:12.827713Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/run/mysqld/mysqlx.sock' failed, can't create lock file /run/mysqld/mysqlx.sock.lock'
+mysqld: File '>>>>>>> origin/main' not found (OS errno 2 - No such file or directory)
+2024-07-23T00:32:12.924915Z 0 [ERROR] [MY-010958] [Server] Could not open log file.
+2024-07-23T00:32:12.924951Z 0 [ERROR] [MY-010041] [Server] Can't init tc log
+2024-07-23T00:32:12.924969Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-23T00:32:13.841183Z 0 [System] [MY-010910] [Server] /nix/store/i52w1ch1cb2ia9yh0brivwyl1crayw49-mysql-8.0.37/bin/mysqld: Shutdown complete (mysqld 8.0.37)  Source distribution.
